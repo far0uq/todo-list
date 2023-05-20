@@ -11,24 +11,24 @@
 This is a simple Laravel project that allows you to create and manage your todos in a fun and interactive way! With this small app, you can easily add new todos, view them on the page, and mark them as completed to remove them from view.
 
 ## Features
-1- Create Todos: Add new todos with a title and description to keep track of your tasks.
-2- View Todos: See all your todos displayed on the page with their titles and descriptions.
-3- Mark as Completed: When you've finished a task, simply mark it as completed, and it will be removed from view.
+- Create Todos: Add new todos with a title and description to keep track of your tasks.
+- View Todos: See all your todos displayed on the page with their titles and descriptions.
+- Mark as Completed: When you've finished a task, simply mark it as completed, and it will be removed from view.
 
 ## Installation
-- Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine using the following command:
 ```
 git clone https://github.com/far0uq/todo-list.git
 ```
 
-- Navigate to the project directory:
+2. Navigate to the project directory:
 ```
 cd todo-list
 ```
 
-- Install the dependencies using Composer.
+3. Install the dependencies using Composer.
 
-- Configure the database settings in the .env file with your database credentials. Set the following values:
+4. Configure the database settings in the .env file with your database credentials. Set the following values:
 ```
 DB_CONNECTION=mysql
 DB_HOST=your_database_host
@@ -38,17 +38,17 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
 
-- Run the database migrations to set up the required tables:
+5. Run the database migrations to set up the required tables:
 ```
 php artisan migrate
 ```
 
-- Start the development server:
+6. Start the development server:
 ```
 php artisan serve
 ```
 
-- Open your browser and visit http://localhost:8000 to access the Todo App!
+7. Open your browser and visit http://localhost:8000 to access the Todo App!
 
 ## Usage
 - Once you access the Todo App in your browser, you will be presented with an input field and a button to save item.
