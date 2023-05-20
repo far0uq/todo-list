@@ -24,9 +24,12 @@
 - **[Lendio](https://lendio.com)**
 
 ## Features
-
-## Installation
-
 - Create Todos: Add new todos with a title and description to keep track of your tasks.
 - View Todos: See all your todos displayed on the page with their titles and descriptions.
 - Mark as Completed: When you've finished a task, simply mark it as completed, and it will be removed from view.
+
+## Installation
+- Clone the repository to your local machine using the following command:
+```
+git clone https://github.com/far0uq/todo-list.git
+```
