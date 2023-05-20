@@ -33,3 +33,40 @@
 ```
 git clone https://github.com/far0uq/todo-list.git
 ```
+
+- Navigate to the project directory:
+```
+cd todo-list
+```
+
+- Install the dependencies using Composer.
+
+- Configure the database settings in the .env file with your database credentials. Set the following values:
+```
+DB_CONNECTION=mysql
+DB_HOST=your_database_host
+DB_PORT=your_database_port
+DB_DATABASE=databaseForTodos
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
+```
+
+- Run the database migrations to set up the required tables:
+```
+php artisan migrate
+```
+
+- Start the development server:
+```
+php artisan serve
+```
+
+- Open your browser and visit http://localhost:8000 to access the Todo App!
+
+##Usage
+- Once you access the Todo App in your browser, you will be presented with an input field and a button to save item.
+- Enter a title for your todo in the provided field.
+- Click on the "Save Item" button to add the todo to the list.
+- Your new todo will appear at the bottom of the list.
+- To mark a todo as completed and remove it from view, click on the "Mark Complete" button for that todo.
+- The completed todo will disappear from the list, leaving you with a clean view of your active todos.
