@@ -11,9 +11,9 @@
 This is a simple Laravel project that allows you to create and manage your todos in a fun and interactive way! With this small app, you can easily add new todos, view them on the page, and mark them as completed to remove them from view.
 
 ## Features
-- Create Todos: Add new todos with a title and description to keep track of your tasks.
-- View Todos: See all your todos displayed on the page with their titles and descriptions.
-- Mark as Completed: When you've finished a task, simply mark it as completed, and it will be removed from view.
+1- Create Todos: Add new todos with a title and description to keep track of your tasks.
+2- View Todos: See all your todos displayed on the page with their titles and descriptions.
+3- Mark as Completed: When you've finished a task, simply mark it as completed, and it will be removed from view.
 
 ## Installation
 - Clone the repository to your local machine using the following command:
@@ -50,7 +50,7 @@ php artisan serve
 
 - Open your browser and visit http://localhost:8000 to access the Todo App!
 
-##Usage
+## Usage
 - Once you access the Todo App in your browser, you will be presented with an input field and a button to save item.
 - Enter a title for your todo in the provided field.
 - Click on the "Save Item" button to add the todo to the list.
